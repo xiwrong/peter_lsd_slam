@@ -1,0 +1,6 @@
+<launch>
+    
+    <node name="lsd_slam_core" pkg="lsd_slam_core" type="live_slam" 
+            args="image:=/image_raw camera_info:=/camera_info">
+    </node>
+</launch>
